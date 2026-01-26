@@ -1,0 +1,171 @@
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.maxwid{
+    max-width: 1600px;
+}
+*{
+    margin: 0;
+ }
+ body{
+    margin: auto;
+ }
+.firsnav{
+    background-color: rgba(65, 37, 103, 1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 92px;
+    
+}
+.navul{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+
+}
+.navli a{
+    color: white;
+    text-decoration: none;
+    margin: auto 0;
+    font-weight: 500;
+    
+}
+.firstnavh1{
+    color: white;
+}
+
+    
+.h1color{
+    background: linear-gradient(
+        90deg,
+        #F7E93F 0%,
+        #FB09B4 51%,
+        #9100F8 100%
+
+
+    );
+     -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+   
+   
+}
+.navbtn
+ {
+    width: 135px;
+    height: 44px;
+     background: linear-gradient(
+        90deg,
+        #F7E93F 0%,
+        #FB09B4 51%,
+        #9100F8 100%
+
+
+    );
+    border-radius: 28px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+ }
+ .banner{
+    background-image: url("./assets/hero-bg.png");
+    background-size: cover;
+    height: 760px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+ }
+ .imagecontainerban{
+     background: linear-gradient(
+        90deg,
+        #F7E93F 0%,
+        #FB09B4 51%,
+        #9100F8 100%
+
+
+    );
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 40px;
+   
+    position: absolute;
+    top: 101px;
+    border: 6px solid rgba(42, 24, 108, 1);
+
+ }
+ .newbannertxt{
+    position: absolute;
+    right: 28px;
+    top: 0px;
+    background-color: rgba(0, 255, 136, 1);
+    border-radius: 25px;
+    padding: 8px 16px;
+
+ }
+
+ .bannertext{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 491px;
+ }
+ .bannerh1{
+    margin-bottom: 8px;
+    font-size: 4rem;
+ }
+ .bannerp{
+    font-size: 1rem;
+    font-weight: 100;
+    margin-bottom: 24px;
+ }
+ .btndiv{
+    display: flex;
+    gap: 8px;
+ }
+ .bannerbtn1{
+    width: 201px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    background: linear-gradient(
+        90deg,
+        #F7E93F 0%,
+        #FB09B4 51%,
+        #9100F8 100%
+
+
+    );
+    border-radius: 28px;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+ }
+ .bannerbtn2{
+    background-color: rgba(26, 11, 46, 1);
+    color:rgba(0, 255, 136, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border: 1px solid rgba(0, 255, 136, 1);
+    border-radius: 28px;
+    width: 147px;
+ }
