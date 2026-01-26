@@ -5,13 +5,16 @@
   font-style: normal;
 }
 .maxwid{
-    max-width: 1600px;
+    max-width: 1920px;
 }
 *{
     margin: 0;
  }
  body{
     margin: auto;
+ }
+ .white{
+   color: white;
  }
 .firsnav{
     background-color: rgba(65, 37, 103, 1);
@@ -169,3 +172,148 @@
     border-radius: 28px;
     width: 147px;
  }
+ .afterhead{
+   background-color: rgba(26, 11, 46, 1);
+   text-align: center;
+   padding: 50px;
+  
+   
+ }
+ .afterpara{
+   max-width: 1600px;
+   width: 60%;
+    margin: auto;
+    
+ }
+ .afterh1{
+   font-size: 3rem;
+   margin-bottom: 16px;
+ }
+ .afterfirstpara,.aftersecpara{
+   width: 70%;
+   margin: auto;
+   font-weight: 200;
+   color: white;
+   line-height: 1.5rem;
+   margin-bottom: 60px;
+   
+ }
+ .h{
+   background-color: #120526;
+   max-width: 70%;
+   margin: auto;
+   margin-bottom: 30px;
+   border: none;             
+    height: 1px;               
+    background-color: #ffffff;  
+    opacity: 0.1;
+ }
+ 
+
+.afterdiv{
+   display: flex;
+   margin: auto;
+    width: 70%;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+.conh1{
+   color: rgba(0, 255, 136, 1);
+   margin: 16px;
+}
+.conp{
+   font-weight: 200;
+}
+.grid{
+   background-color: rgba(35, 14, 61, 1);
+}
+.gridh1{
+   max-width: 70%;
+   text-align: center;
+   margin: auto;
+   padding-top: 120px;
+   padding-bottom: 40px;
+   
+}
+.audio{
+   grid-area: audio;
+   background-color: rgba(53, 17, 101, 0.4);
+   max-width: 380px;
+   display: flex;
+   justify-content: center;
+   align-items: first baseline;
+   flex-direction: column;
+   padding: 40px;
+   border-radius: 20px;
+}
+.audio2{
+   grid-area: audio2;
+   background-color: rgba(53, 17, 101, 0.4);
+   max-width: 790px;
+   display: flex;
+   justify-content: center;
+   align-items: first baseline;
+   flex-direction: column;
+   padding: 40px;
+   border-radius: 20px;
+}
+.audio3{
+   grid-area: audio3;
+   background-color: rgba(53, 17, 101, 0.4);
+   max-width: 790px;
+   display: flex;
+   justify-content: center;
+   align-items: first baseline;
+   flex-direction: column;
+   padding: 40px;
+   border-radius: 20px;
+}
+.audio4{
+   grid-area: audio4;
+   background-color: rgba(53, 17, 101, 0.4);
+   max-width: 790px;
+   display: flex;
+   justify-content: center;
+   align-items: first baseline;
+   flex-direction: column;
+   padding: 40px;
+   border-radius: 20px;
+}
+.audio5{
+   grid-area: audio5;
+   background-color: rgba(53, 17, 101, 0.4);
+   max-width: 380px;
+   display: flex;
+   justify-content: center;
+   align-items: first baseline;
+   flex-direction: column;
+   padding: 40px;
+   border-radius: 20px;
+}
+.grids{
+   display: grid;
+   grid-template-areas: "audio audio2 audio2"
+   "audio audio3 audio3"
+   "audio4 audio4 audio5";
+    width: 75%;
+    margin: auto;
+    max-width: 1600px;
+    gap: 30px;
+    justify-content: center;
+    border-radius: 20px;
+    padding-bottom: 120px;
+    
+}
+.gridpara{
+   width: 80%;
+}
+.gridh3{
+   color: white;
+  margin: 16px 0px;
+
+}
+.gridpara{
+   color: rgba(255, 255, 255, 1);
+   font-weight: 100;
+   line-height: 1.4 rem;
+}
