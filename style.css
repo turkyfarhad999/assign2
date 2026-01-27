@@ -226,7 +226,7 @@
 }
 .conp{
    font-weight: 200;
-}""
+}
 .grid{
    background-color: rgba(35, 14, 61, 1);
 }
@@ -557,6 +557,9 @@
    flex-direction: column;
 }
 .ff{
+    background-image: url("./assets/footer-bg.png");
+   background-size: cover;
+   
    height: 30vh;
    width: 100%;
    max-width: 576px;
