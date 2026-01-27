@@ -317,3 +317,144 @@
    font-weight: 100;
    line-height: 1.4 rem;
 }
+.afterh1{
+   font-size: 3rem;
+   margin-bottom: 16px;
+ }
+ .videodiv{
+   width: 70%;
+   max-width: 1600px;
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+   
+ }
+ .vid{
+   width: 30%;
+   max-width: 500px;
+   height: 440px;
+   background-color: rgba(37, 13, 68, 1);
+   border-radius: 12px;
+ }
+ .ii{
+   width: 100%;
+   height: 50%;
+    border-radius: 12px;
+   
+ }
+ .video{
+   background-color: rgba(26, 11, 46, 1);
+   padding-bottom: 120px;
+ }
+ .iip{
+   color: rgba(0, 255, 136, 1);
+   display: flex;
+   align-items: center;
+   gap: 6px;
+   
+ }
+ .iidiv{
+   display: flex;
+   flex-direction: column;
+   
+ }
+
+ .lekha{
+   padding: 15px 15px;
+   max-width: 85%;
+ }
+ .iih3{
+   font-size: 1.5rem;
+   margin-bottom: 10px;
+ }
+.iipp{
+   line-height: 1.4rem;
+   margin-bottom: 10px;
+}
+.porichoy{
+   display: flex;
+   max-width: 1600px;
+   width: 60%;
+   margin: auto;
+   align-items: center;
+   gap: 24px;
+   background-color: rgba(37, 13, 68, 1);
+   padding: 40px;
+     border-radius: 22px;
+    
+
+}
+ .poripara{
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+ }
+ .porih2{
+   font-size: 2rem;
+ }
+ .porichoypara{
+   line-height: 1.5rem;
+
+ }
+ .porichoyicon{
+   display: flex;
+   align-items: center;
+   gap: 15px;
+   padding: 3px;
+  
+ }
+ .iconi a{
+   border-radius: 50%;
+   height: 40px;
+   width: 40px;
+  
+    border: 1px solid black
+ }
+ .ff{
+   background-image: url("./assets/footer-bg.png");
+   background-size: cover;
+   width: 100%;
+   height: 412px;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   position: relative;
+ }
+ .all{
+   width: 85%;
+   height: 172px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+   flex-direction: column;
+   position: relative;
+ }
+ .firstnavh11{
+   
+   font-size: 4rem;
+   
+  
+ }
+ .footicons{
+   display: flex;
+   
+    gap: 30px;
+    position: absolute;
+    top: 137px;
+ }
+ .footicon{
+   display: flex;
+   gap: 10px;
+ }
+ .footpara{
+  
+  position: absolute;
+  top: 185px;
+ 
+
+
+ }
+
+
