@@ -556,7 +556,30 @@
 .porichoy{
    flex-direction: column;
 }
+.ff{
+   height: 30vh;
+   width: 100%;
+   max-width: 576px;
+}
+.firstnavh11{
    
+   font-size: 2rem;
+
+   
+  
+ }
+ .all{
+   position: static;
+   justify-content: space-between;
+ }
+ .footicons{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   position: static;
+   
+ }
+ .footpara{
+   position: static;
  }
 
 
